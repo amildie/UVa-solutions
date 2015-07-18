@@ -12,7 +12,7 @@
 #include <cstring>
 #include <queue>
 #ifdef TEST
-	#include "tools.h" 
+    #include "tools.h" 
 #endif
 using namespace std;
 
@@ -38,7 +38,7 @@ int main(){
         freopen("test.out", "w", stdout);
     #endif
     
-	int N;
+    int N;
     while(cin >> N && N > 0)
         cout << G(N) << endl;    
     
