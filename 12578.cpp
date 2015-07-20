@@ -33,7 +33,7 @@ int main(){
         freopen("test.out", "w", stdout);
     #endif
     
-	int T, L;
+    int T, L;
     cin >> T;
     while(T--) {
         cin >> L;
