@@ -17,7 +17,7 @@
 #endif
 using namespace std;
 
-void calculate(int L){
+void calculate(int L) {
     double w = (double) (60 * L) / 100;
     double r = (double) L / 5;
     double circArea = 2*acos(0.0)*r*r;
@@ -26,7 +26,7 @@ void calculate(int L){
 }
 
 
-int main(){
+int main() {
     
     #ifdef TEST
         freopen("test.in", "r", stdin);
